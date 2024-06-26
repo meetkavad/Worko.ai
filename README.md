@@ -1,7 +1,7 @@
-# Worko API
+# Worko.ai Assignment
 
 ## Overview
-This project provides a set of APIs for managing users in the Worko application. It follows the MVC architecture with separate layers for controllers, services, and data access objects (DAO). The project uses MongoDB as the database and includes basic authentication for API endpoints.
+This project provides a set of APIs for managing users as a part of Worko.ai assignment. It follows the MVC architecture with separate layers for controllers, services, and data access objects (DAO). The project uses MongoDB as the database and includes basic authentication for API endpoints.
 
 ## Features
 - User CRUD operations
@@ -51,7 +51,6 @@ This project provides a set of APIs for managing users in the Worko application.
 - `GET /worko/api/` - List users
 - `GET /worko/api/:userId` - Get user details
 - `POST /worko/api/` - Create user
-- `PUT /worko/api/:userId` - Update user
 - `PATCH /worko/api/:userId` - Update user
 - `DELETE /worko/api/:userId` - Delete user
 
